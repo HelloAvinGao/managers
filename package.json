@@ -1,15 +1,26 @@
 {
-  "name": "biaodianyun",
+  "name": "manager",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build:dev": "vue-cli-service build --mode development",
+    "build:prod": "vue-cli-service build --mode production"
   },
   "dependencies": {
+    "ant-design-vue": "^1.7.5",
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "echarts": "^5.1.2",
+    "js-md5": "^0.7.3",
+    "reqwest": "^2.0.5",
+    "v-contextmenu": "^3.0.0",
+    "vue": "^2.6.11",
+    "vue-i18n": "^8.24.4",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
